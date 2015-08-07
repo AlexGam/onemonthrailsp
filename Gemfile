@@ -11,11 +11,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'bootstrap-sass'
 
-group: development, :test do
+group :development, :test do
 	gem 'sqlite3'
 end
 
-group: production do
+group :production do
 	gem 'pg'
 	gem 'rails_12factor'
 end

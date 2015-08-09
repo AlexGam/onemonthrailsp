@@ -1,0 +1,12 @@
+<% flash.each do |name, msg| %>
+  <%= content_tag(:div, msg, class: "alert alert-info") %>
+<% end %>
+
+<p id="notice"><%= notice %></p>
+<p>
+  <strong>Description:</strong>
+  <%= @pin.description %>
+</p>
+
+<%= link_to 'Edit', edit_pin_path(@pin) %> |
+<%= link_to 'Back', pins_path %>

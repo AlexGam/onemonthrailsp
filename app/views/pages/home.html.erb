@@ -2,7 +2,7 @@
   <h1>Welcome to my app!</h1>
   
   <% if user_signed_in? %>
-    #something
+    <%= link_to "My Pins", pins_path, class: "btn btn-primary btn-lg" %>
     
   <% else %> 
     <p>

@@ -10,7 +10,9 @@ $jumbotron-bg: white;
 $state-info-bg: #F5F5F5;
 $state-info-text: #318F3C;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center {
      text-align: center;
